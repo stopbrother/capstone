@@ -1,0 +1,1 @@
+insert into USER values('gildong','123456', '홍길동', '남자', 'gildong@naver.com');

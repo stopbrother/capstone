@@ -1,0 +1,17 @@
+<Context path="/jspdb" docBase="www">
+<Resource
+	name="jdbc/jspdb"
+	auth="Container"
+	type="javax.sql.DataSource"
+	driverClassName="com.mysql.jdbc.Driver"
+	loginTimeout="10"
+	validationQuery="select 1 from dual"
+	maxWait="5000"
+	username="root"
+	password="1234"
+	url="jdbc:mysql://localhost:3306/jspdb"/>
+<ResourceLink type="javax.sql.data.DataSource"
+	name="jdbc/jspdb"
+	global="jdbc/jspdb"/>
+
+</Context>

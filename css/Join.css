@@ -1,0 +1,144 @@
+#wrap {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.head {            background: url(../img/login/login.png);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 6.281rem;
+    text-align: center;
+}
+.head img {
+    height: 6.27rem;
+}
+body {
+    background: #e9e9e9;
+}
+.join_container {
+    background: #fff;
+    margin: 14% 10% 0 10%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+.join_container h1 {
+    text-align: center;
+    margin: 0 0 2rem 0;
+    padding: 2rem 0 0 0;
+    color: #3399cc;
+    font-weight: bold;
+    font-size: 2rem;
+    font-size: 2em;
+}
+.join {
+    text-align: center;
+    margin: 0 15% 0 15%;
+    padding-bottom: 2rem;
+}
+.id input, .pw input, .pw2 input, .name input, .e-mail input {
+    height: 1.5rem;
+    margin-bottom: 5%;
+    width: 80%;
+    border: 1px soild #bdbdbd;
+    text-indent: 0.3rem;
+}
+.pw2 {
+    margin-bottom: 3%; 
+}
+.e-mail {
+    margin-bottom: 5%;
+}
+button {
+    width: 80%;
+    height: 3rem;
+    background: #3399cc;
+    color: #fff;
+    font-weight: bold;
+    border: 1.5px solid #bdbdbd;
+    margin-bottom: 5%;
+}
+footer {
+    background: #3399cc;
+    width: 100%;
+    text-align: center;
+    height: 5rem;
+    margin-top: 25%;
+}
+footer p {
+    padding-top: 7%;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.9rem;
+}
+.foot2 {
+    float: left;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+/* 태블릿 사이즈 */
+@media all and (min-width: 768px) {
+    .join_container {
+        background: #fff;
+        margin: 11.5% 10% 0 10%;
+    }
+    .join_container h1 {
+        padding-top: 12%;
+        font-size: 3rem;
+        font-size: 3em;
+    }
+    .join {
+        padding-top: 5%;
+    }
+    .id input, .pw input, .pw2 input, .name input, .e-mail input {
+        height: 2rem;
+        font-size: 1.3rem;
+        font-size: 1.3em;
+    }
+    button {
+        height: 4rem;
+        font-size: 1.7rem;
+        font-size: 1.7em;
+    }
+    footer {
+        margin-top: 11.5%;
+    }
+    footer p {
+        padding-top: 3%;
+        font-size: 1.2rem;
+        font-size: 1.2em;
+    }
+}
+
+/* PC 사이즈 */
+
+@media all and (min-width: 1024px) {
+    #wrap {
+        max-width: 1200px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .join_container {
+        margin: 14% 10% 0 10%;
+        height: 55rem;
+    }
+    .id input, .pw input, .pw2 input, .name input, .e-mail input {
+        height: 3rem;
+        font-size: 1.5rem;
+        font-size: 1.5em;
+    }
+    button {
+        height: 5rem;
+        font-size: 1.9rem;
+        font-size: 1.9em;
+    }
+    footer {
+        margin-top: 13.5%;
+    }
+    footer p {
+        padding-top: 2.5%;
+        font-size: 1.5rem;
+        font-size: 1.5em;
+    }
+}
